@@ -1,0 +1,242 @@
+[
+    {
+        "outputFile": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 46,
+                    "endOffset": 97
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 686,
+                        "endColumn": 46,
+                        "endOffset": 728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 102,
+                    "endColumn": 56,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endColumn": 41,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 46,
+                    "endOffset": 243
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 248,
+                    "endColumn": 46,
+                    "endOffset": 290
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 295,
+                    "endColumn": 67,
+                    "endOffset": 358
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 363,
+                    "endColumn": 44,
+                    "endOffset": 403
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 408,
+                    "endColumn": 54,
+                    "endOffset": 458
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 463,
+                    "endColumn": 46,
+                    "endOffset": 505
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 510,
+                    "endColumn": 48,
+                    "endOffset": 554
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 559,
+                    "endColumn": 54,
+                    "endOffset": 609
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endColumn": 42,
+                    "endOffset": 652
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 657,
+                    "endColumn": 42,
+                    "endOffset": 695
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 700,
+                    "endColumn": 43,
+                    "endOffset": 739
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 744,
+                    "endColumn": 46,
+                    "endOffset": 786
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 791,
+                    "endColumn": 50,
+                    "endOffset": 837
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 842,
+                    "endColumn": 56,
+                    "endOffset": 894
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 899,
+                    "endColumn": 47,
+                    "endOffset": 942
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 947,
+                    "endColumn": 48,
+                    "endOffset": 991
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            }
+        ]
+    }
+]
