@@ -15,11 +15,13 @@ public final class R {
     }
     public static final class id {
         public static final int AmoMcu_taobao=0x7f060002;
+        public static final int BloodPressure=0x7f060011;
+        public static final int HeartRate=0x7f060012;
         public static final int about_text_help=0x7f060000;
         public static final int button_about=0x7f060013;
+        public static final int button_calibrate=0x7f060015;
         public static final int button_clear=0x7f06000f;
         public static final int button_detail=0x7f060014;
-        public static final int button_calibrate =0x7f060015;
         public static final int connection_state=0x7f060004;
         public static final int data_value=0x7f060005;
         public static final int detail_text_help=0x7f060001;
@@ -28,7 +30,6 @@ public final class R {
         public static final int device_major_minor=0x7f06000a;
         public static final int device_name=0x7f060007;
         public static final int device_txPower_rssi=0x7f060009;
-        public static final int edit_text=0x7f060012;
         public static final int gatt_services_list=0x7f060006;
         public static final int menu_connect=0x7f060017;
         public static final int menu_disconnect=0x7f060018;
@@ -38,9 +39,8 @@ public final class R {
         public static final int scroll=0x7f060010;
         public static final int textview_char_uuid=0x7f06000c;
         public static final int textview_mac_addr=0x7f06000b;
-        public static final int textview_recive_send_info=0x7f060011;
-        public static final int togglebutton_hex_str=0x7f06000d;
-        public static final int togglebutton_time_onoff=0x7f06000e;
+        public static final int togglebutton_collection_onoff=0x7f06000d;
+        public static final int togglebutton_wave_onoff=0x7f06000e;
     }
     public static final class layout {
         public static final int about=0x7f030000;

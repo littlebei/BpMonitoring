@@ -42,7 +42,7 @@ public class AmoComActivity extends Activity implements View.OnClickListener {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.other);
-		getActionBar().setTitle("测试版本");
+		getActionBar().setTitle(R.string.test_version);
 
 		findViewById(R.id.button_clear).setOnClickListener(this);
 		findViewById(R.id.button_calibrate).setOnClickListener(this);
