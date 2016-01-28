@@ -69,10 +69,11 @@ public final class R {
         public static final int menu_scan=0x7f04000b;
         public static final int menu_stop=0x7f04000c;
         public static final int no_data=0x7f04000d;
-        public static final int text_detail=0x7f04000e;
-        public static final int title_devices=0x7f04000f;
-        public static final int unknown_characteristic=0x7f040010;
-        public static final int unknown_device=0x7f040011;
-        public static final int unknown_service=0x7f040012;
+        public static final int test_version=0x7f04000e;
+        public static final int text_detail=0x7f04000f;
+        public static final int title_devices=0x7f040010;
+        public static final int unknown_characteristic=0x7f040011;
+        public static final int unknown_device=0x7f040012;
+        public static final int unknown_service=0x7f040013;
     }
 }

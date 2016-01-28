@@ -14,6 +14,7 @@
     <string name="menu_scan">Scan</string>
     <string name="menu_stop">Stop</string>
     <string name="no_data">No data</string>
+    <string name="test_version">测试版本1.0</string>
     <string name="text_detail">detail</string>
     <string name="title_devices">BLE 设备扫描</string>
     <string name="unknown_characteristic">未知特征值</string>

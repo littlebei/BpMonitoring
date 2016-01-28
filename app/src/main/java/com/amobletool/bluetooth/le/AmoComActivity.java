@@ -1,5 +1,11 @@
 package com.amobletool.bluetooth.le;
-
+/*
+	小北修改过程：
+	1、将无用的控件删除（串口收发等）
+	2、修改或删减控件，主要包含：控制采集终止/继续，波形显示，校准标定；波形显示控件，增加一张画布
+	3、修改程序功能，首先是各个特征值的含义的内容，读写周期和规则；其次是控制命令和应答命令的交互；暂时先不考虑校准和标定
+	4、增加了大量的注释
+ */
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -11,6 +17,7 @@ import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.ToggleButton;
@@ -19,11 +26,12 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import com.amoheartrate.bluetooth.le.R;
 
 public class AmoComActivity extends Activity implements View.OnClickListener {
-	private final static String TAG = "DeviceScanActivity";// DeviceScanActivity.class.getSimpleName();
+	private final static String TAG = "AmoComActivity";
 
+	/*
+	// 关于串口收发的相关变量定义，不需要
 	static TextView Text_Recv;
 	static String Str_Recv;
-
 	static String ReciveStr;
 	static ScrollView scrollView;
 	static Handler mHandler = new Handler();
@@ -33,7 +41,9 @@ public class AmoComActivity extends Activity implements View.OnClickListener {
 	static int Totol_Send_bytes = 0;
 	static int Totol_recv_bytes = 0;
 	static String SendString = "AmoMcu.com";
+	*/
 
+	// 定义相关控件变量
 	ToggleButton toggleCollection;
 	ToggleButton toggleWave;
 
@@ -41,14 +51,18 @@ public class AmoComActivity extends Activity implements View.OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+
+		// 设置layout和标题栏内容
 		setContentView(R.layout.other);
 		getActionBar().setTitle(R.string.test_version);
 
+		// 找到四个按键：清除波形，校准标定、关于和详细信息, 统一设置按键监听程序
 		findViewById(R.id.button_clear).setOnClickListener(this);
 		findViewById(R.id.button_calibrate).setOnClickListener(this);
 		findViewById(R.id.button_about).setOnClickListener(this);
 		findViewById(R.id.button_detail).setOnClickListener(this);
 
+		// 从DeviceScanActivity里，获取Intent里的蓝牙mac地址和UUID信息，并且显示在两个textView控件中
 		Intent intent = getIntent();
 		Bundle bundle = intent.getExtras();
 		String mac_addr = bundle.getString("mac_addr");
@@ -61,25 +75,25 @@ public class AmoComActivity extends Activity implements View.OnClickListener {
 		tv_mac_addr.setText("设备地址:" + mac_addr);
 		tv_char_uuid.setText("特征值UUID:" + char_uuid);
 
+		/*
+		// 串口收发部分，省略不用
 		textview_recive_send_info = (TextView) this
 				.findViewById(R.id.textview_recive_send_info);
-
 		Text_Recv = (TextView) findViewById(R.id.device_address);
 		Text_Recv.setGravity(Gravity.CLIP_VERTICAL | Gravity.CLIP_HORIZONTAL);
 		ReciveStr = "";
 		Text_Recv.setMovementMethod(ScrollingMovementMethod.getInstance());
 		scrollView = (ScrollView) findViewById(R.id.scroll);
-
 		TextView text2 = (TextView) this.findViewById(R.id.edit_text);
 		text2.setText(SendString);
-
 		Totol_Send_bytes = 0;
 		Totol_recv_bytes = 0;
 		update_display_send_recv_info(Totol_Send_bytes, Totol_recv_bytes);
-
 		ifDisplayInHexStringOnOff = true;
 		ifDisplayTimeOnOff = true;
+		*/
 
+		// 两个切换按钮
 		toggleCollection = (ToggleButton) findViewById(R.id.togglebutton_collection_onoff);
 		toggleWave = (ToggleButton) findViewById(R.id.togglebutton_wave_onoff);
 
@@ -149,6 +163,7 @@ public class AmoComActivity extends Activity implements View.OnClickListener {
 		// TODO Auto-generated method stub
 		switch (arg0.getId()) {
 		case R.id.button_clear:
+			/*
 			Text_Recv.setText("");
 			ReciveStr = "";
 			Totol_Send_bytes = 0;
@@ -156,8 +171,10 @@ public class AmoComActivity extends Activity implements View.OnClickListener {
 			update_display_send_recv_info(Totol_Send_bytes, Totol_recv_bytes);
 
 			scrollView.fullScroll(ScrollView.FOCUS_UP);// 滚动到顶
+			*/
 			break;
 		case R.id.button_calibrate:
+			/*
 			TextView text2 = (TextView) this.findViewById(R.id.edit_text);
 			if (text2.length() > 0) {
 				String s1 = text2.getText().toString();
@@ -170,8 +187,8 @@ public class AmoComActivity extends Activity implements View.OnClickListener {
 				SendString = text2.getText().toString();
 
 			}
+			*/
 			break;
-
 		case R.id.button_about:
 			startActivity(new Intent(AmoComActivity.this, AboutActivity.class));
 			// Uri uri = Uri.parse("www.amomcu.com");
