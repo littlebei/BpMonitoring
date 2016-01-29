@@ -334,8 +334,7 @@ public class DeviceScanActivity extends ListActivity {
 
 		Log.i(TAG, "connect bRet = " + bRet);
 
-		Toast toast = Toast.makeText(getApplicationContext(), "正在连接设备并获取服务中",
-				1500);
+		Toast toast = Toast.makeText(getApplicationContext(), "正在连接设备并获取服务中", 1500);
 		toast.setGravity(Gravity.CENTER, 0, 0);
 		toast.show();
 	}
