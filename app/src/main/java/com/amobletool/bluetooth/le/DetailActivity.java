@@ -34,8 +34,8 @@ public class DetailActivity extends Activity {
 			public void handleMessage(Message msg) {
 				if (msg.what == REFRESH) {
 					// Log.i(TAG, "handleMessage");
-					String str = AmoComActivity.GetLastData();
-					tv.setText("当前环境温度 ：\r\n" + str);
+					int currBp = AmoComActivity.GetLastData();
+					tv.setText("当前心率 ：\r\n" + currBp);
 
 				}
 				super.handleMessage(msg);

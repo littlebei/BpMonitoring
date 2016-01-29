@@ -11,14 +11,7 @@
                     "endOffset": 97
                 },
                 "from": {
-                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 686,
-                        "endColumn": 46,
-                        "endOffset": 728
-                    }
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -182,20 +175,27 @@
                     "startLine": 16,
                     "startColumn": 4,
                     "startOffset": 744,
-                    "endColumn": 46,
-                    "endOffset": 786
+                    "endColumn": 48,
+                    "endOffset": 788
                 },
                 "from": {
-                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1189,
+                        "endColumn": 48,
+                        "endOffset": 1233
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 791,
-                    "endColumn": 50,
-                    "endOffset": 837
+                    "startOffset": 793,
+                    "endColumn": 46,
+                    "endOffset": 835
                 },
                 "from": {
                     "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
@@ -205,9 +205,9 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 842,
-                    "endColumn": 56,
-                    "endOffset": 894
+                    "startOffset": 840,
+                    "endColumn": 50,
+                    "endOffset": 886
                 },
                 "from": {
                     "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
@@ -217,9 +217,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 899,
-                    "endColumn": 47,
-                    "endOffset": 942
+                    "startOffset": 891,
+                    "endColumn": 56,
+                    "endOffset": 943
                 },
                 "from": {
                     "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
@@ -229,9 +229,21 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 947,
-                    "endColumn": 48,
+                    "startOffset": 948,
+                    "endColumn": 47,
                     "endOffset": 991
+                },
+                "from": {
+                    "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 996,
+                    "endColumn": 48,
+                    "endOffset": 1040
                 },
                 "from": {
                     "file": "E:\\From Spring To Summer\\OUR_WORKS\\PROGRAM\\android_java\\AmoBleTool\\app\\src\\main\\res\\values\\strings.xml"
